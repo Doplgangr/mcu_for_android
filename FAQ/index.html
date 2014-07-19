@@ -152,37 +152,6 @@
       </div>
     </div>
 
-  </div>
-  <div class="fr-copyright-footer fixed">
-    <div class="fr-widget fr-container">
-      <div class="fr-widget fr-text fr-wf fr-made-with-froont">
-        <a href="//froont.com" class="fr-text" target="_blank">
-        MADE WITH <span class="heart">&hearts;</span> AND <b>FROONT</b>
-      </a>
-      </div>
-    </div>
-    <div class="fr-bottom-em-spacer"></div>
-    <script type="text/javascript">
-      $(function() {
-        $(window).resize(function() {
-          var $footer = $('.fr-copyright-footer');
-          var $ref = $(document.getElementsByClassName('b-content')[0] || document.body)
-          $footer.removeClass('fixed');
-          if ($ref.height() + $footer.height() < window.innerHeight) {
-            $footer.addClass('fixed')
-          };
-        }).trigger('resize');
-      })
-    </script>
-  </div>
-  <div id="footer-assets">
-    <!--[if lt IE 9]>
-                    <script type="text/javascript" src="vendor/bower/respond/respond.src.js"></script>
-                    <script type="text/javascript" src="vendor/bower/raphael/raphael.js"></script>
-                    <script type="text/javascript" src="vendor/bower/raphael-svg-import-classic/raphael-svg-import.js"></script>
-                    <script type="text/javascript" src="js/raphaelize.js"></script>
-            <![endif]-->
-  </div>
 </body>
 
 </html>
