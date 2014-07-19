@@ -197,13 +197,14 @@ a {
 /** Widget styles             **/
 /** ************************* **/
 .fr_wijoji {
+  float: none;
   display: block;
-  width: auto;
+  width: 65.65507031828275%;
   font-family: Roboto Slab;
   font-weight: 200;
   font-size: 5.4em;
   text-align: center;
-  margin-top: .6974927325581395em;
+  vertical-align: top;
   margin-right: auto;
   margin-left: auto
 }
@@ -212,7 +213,9 @@ a {
 }
 .fr_sijuma {
   display: block;
-  margin-top: .4208984375em;
+  width: 100%;
+  vertical-align: top;
+  margin-top: .4365234375em;
   margin-right: auto;
   margin-left: auto;
   background: #e3e1e1
@@ -286,7 +289,7 @@ a {
   font-size: 2em;
   line-height: 1.4em;
   text-align: center;
-  margin-top: 1em;
+  margin-top: 1.03369140625em;
   margin-right: auto;
   margin-bottom: 1em;
   margin-left: auto;
@@ -314,8 +317,81 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .fr_wijoji {
+    display: block;
+    font-size: 3.95em
+  }
+}
+@media screen and (max-width: 768px) {
+  .fr_sijuma {
+    margin-top: -0.0458984375em;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    min-height: 39.5em
+  }
+  .fr_sijuma>.fr-widget {
+    margin-right: 8.3%;
+    margin-left: 8.3%;
+    width: 83.4%;
+    clear: none
+  }
+  .fr_sijuma>: nth-child(1n+1) {
+    clear: left
+  }
+}
+@media screen and (max-width: 768px) {
   .fr_rihugo {
     font-weight: 300
+  }
+}
+@media screen and (max-width: 480px) {
+  .fr_wijoji {
+    display: block;
+    font-size: 3.75em
+  }
+}
+@media screen and (max-width: 480px) {
+  .fr_sijuma {
+    display: block;
+    margin-top: .3251953125em
+  }
+}
+@media screen and (max-width: 480px) {
+  .fr_belufo {
+    display: block;
+    font-size: 1.75em;
+    margin-top: 1.1072470238095236em
+  }
+}
+@media screen and (max-width: 320px) {
+  .fr_wijoji {
+    display: block;
+    font-size: 2.3em;
+    text-align: left;
+    min-height: 1.1627906976744187em
+  }
+}
+@media screen and (max-width: 320px) {
+  .fr_sijuma {
+    display: block;
+    margin-top: .0068359375em
+  }
+  .fr_sijuma>.fr-widget {
+    margin-right: 6.4%;
+    margin-left: 6.4%;
+    width: 87.2%;
+    clear: none
+  }
+  .fr_sijuma>: nth-child(1n+1) {
+    clear: left
+  }
+}
+@media screen and (max-width: 320px) {
+  .fr_belufo {
+    display: block;
+    font-size: 1.3em;
+    margin-top: 1em
   }
 }
 
