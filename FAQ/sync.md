@@ -1,8 +1,8 @@
 Tutorial: How to set up automatic synchronization
-----
+======
 
 Turn On sync
---
+-------
 The calendar events, after you set up auto add to calendar, does not automatically update unless you refresh them manually in the app. If you wan them to self-update automatically, you have to set up the separate synchronization mechanism.
 
 1. Open up the settings app. (Not the settings screen of MCU app, but the app that comes with Android.)
@@ -14,7 +14,7 @@ The calendar events, after you set up auto add to calendar, does not automatical
 4. The sync options are now displayed. Turn on synchronization.
 
 Adjust sync frequency
---
+---------
 The calendar should autoupdate now. However, the default settings only refresh once in a week. You may want to go back to the MCU app and change this setting.
 
 1. Open up the settings screen in MCU.
