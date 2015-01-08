@@ -13,4 +13,4 @@ Tutorial: Automatically adding events to your Android calendar
 
 5. When the app loads the lecture list, the lectures will be automatically added to your calendar.
 
-![Calendar](http://doplgangr.github.io/mcu_for_android/assets/calendar.png) ![Event](http://doplgangr.github.io/mcu_for_android/assets/calendarevent.png)
+![Calendar](http://doplgangr.github.io/mcu_for_android/assets/calendar.png) ![Event](http://doplgangr.github.io/mcu_for_android/assets/event.png)
