@@ -7,11 +7,17 @@ The calendar events, after you set up auto add to calendar, does not automatical
 
 1. Open up the settings app. (Not the settings screen of MCU app, but the app that comes with Android.)
 
+![](http://i57.tinypic.com/5x05s1.png)
+
 2. Enter Accounts
 
 3. There should be the MCU account option there. Click it. (If you don't see it, you should be outdated. Please update MCU from Play Store.)
 
+![](http://i58.tinypic.com/2nrloxz.png)
+
 4. The sync options are now displayed. Turn on synchronization.
+
+![](http://i61.tinypic.com/2mq86qp.png)
 
 Adjust sync frequency
 ---------
