@@ -21,6 +21,9 @@ Adjust sync frequency
 ---------
 The calendar should autoupdate now. However, the default settings only refresh once in a week. You may want to go back to the MCU app and change this setting.
 
+![](http://i60.tinypic.com/dct0g1.png)
+![](http://i58.tinypic.com/b80jv8.png)
+
 1. Open up the settings screen in MCU.
 
 2. Click the top-left hand menu button
