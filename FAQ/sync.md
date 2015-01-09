@@ -32,6 +32,6 @@ The calendar should autoupdate now. However, the default settings only refresh o
 
 4. In the settings, click "Auto update frequency".
 
-5. Change it to "1 day". (You would not want to set it to 1 hour, since this would serously drain your battery without major benefit.)
+5. Change it to "every day". (You would not want to set it to every hour, since this would serously drain your battery without major benefit.)
 
 6. Now your calendar will refresh without entering the MCU app.
